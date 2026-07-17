@@ -1,0 +1,7 @@
+speechbrain
+pyannote.audio
+torch
+torchaudio
+soundfile
+numpy
+scipy

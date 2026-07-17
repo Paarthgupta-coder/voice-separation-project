@@ -101,5 +101,5 @@ This is where the attempt ran into the problems that eventually ended it:
 
 Given how much time went into these environment and infrastructure problems rather than into separation quality itself, and with the fine tuning still incomplete and not reliably better than the zero training baseline within the time available, this direction was dropped in favor of committing fully to the recursive, pretrained only cascade approach, which is what the final submission is built on.
 
-###Possible extensions 
+### Possible extensions 
 The most natural next step is making speaker counting fully automatic end to end, since the diarization trigger already behaves like a primitive counter. Beyond that, the cascade would benefit from a separator fine tuned on noisier, more reverberant mixtures so the recursion holds up outside clean studio style audio. The checkpoint surgery from Try 3 also remains worth finishing on a larger compute budget, since a native four or five speaker model would remove the artifact stacking that recursion introduces.
